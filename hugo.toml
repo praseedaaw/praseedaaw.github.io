@@ -1,0 +1,86 @@
+baseURL = "https://praseedaaw.github.io"
+defaultContentLanguage = "en"
+languageCode = "eb-gb"
+title = "Praseeda connects"
+theme = "dream"
+
+enableGitInfo = true
+enableRobotsTXT = true
+
+#hasCJKLanguage = true
+
+[services]
+[services.disqus]
+shortname = "Praseeda"
+# [services.googleAnalytics]
+# ID = ""
+
+# [taxonomies]
+# category = "categories"
+# tag = "tags"
+# series = "series"
+
+[params]
+# zenMode = true
+
+lightTheme = "emerald"
+darkTheme = "forest"
+
+backgroundImage = "/img/darkmode.png"
+backgroundImageDark = "/img/lightmode.png"
+
+# images = ["img/rmc.png"]
+
+author = "Praseeda"
+description = "Praseeda's journey in tech and arts"
+avatar = "/img/avatar.png"
+headerTitle = "Praseeda connects"
+motto = "Passions drive people"
+
+footerBottomText = "Your smile looks wonderful, See you again!"
+
+# rss = true
+
+# utterancesRepo = ""
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+
+# waline = true
+# walineServer = ""
+
+# email = "praseedaaw@gmail.com"
+
+siteStartYear = 2025
+
+favicon = "/img/favicon1.png"
+
+# Syntax highlighting
+# customSyntaxHighlighting = true
+
+# options
+stickyNav = true
+# reorderNavItems = ["about", "search", "github", "posts", "categories", "tags", "rss"]
+# collapseNavItems = ["posts", "categories", "tags", "rss"]
+# noDefaultSummaryCover = true
+# showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+# reorderShares = ["x", "facebook", "whatsapp"]
+
+# https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/
+[params.social]
+linkedin = "Praseeda"
+
+[params.navItems]
+github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[params.advanced]
+# customCSS = ["css/custom.css"]
+# customJS = []
+
+[params.experimental]
+jsDate = true
+jsDateFormat = "yyyy-MM-dd"
