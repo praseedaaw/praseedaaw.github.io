@@ -10,13 +10,6 @@ enableRobotsTXT = true
 #hasCJKLanguage = true
 
 [services]
-[services.disqus]
-shortname = "Praseeda"
-# [services.googleAnalytics]
-# ID = ""
-
-# [taxonomies]
-# category = "categories"
 # tag = "tags"
 # series = "series"
 
