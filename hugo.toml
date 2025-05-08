@@ -77,3 +77,7 @@ github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "lo
 [params.experimental]
 jsDate = true
 jsDateFormat = "yyyy-MM-dd"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
