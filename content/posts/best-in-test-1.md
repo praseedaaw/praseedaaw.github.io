@@ -32,8 +32,8 @@ Michael Bolton opened up new perspectives with his session on “The Primacy of 
 Lina Zubyte – Exploring the Power of Inclusion
 Lina Zubyte’s talk on Inclusion truly resonated with me. As someone who grew up in Kerala, India and has lived in the Netherlands for the past decade, I could deeply relate to her stories and insights. She brought a fresh, positive perspective to a complex and often challenging topic. Her message reminded me of the beauty in diversity and how inclusion strengthens teams and innovation alike.
 
-Bas Dijkstra – Mutation Testing and Rethinking Boundaries
-Bas Dijkstra’s session on Mutation Testing challenged my thinking. His explanation of how mutation testing helps align our tests with real-world production bugs was eye-opening. The way he addressed false positives and false negatives was clear, practical, and inspiring. It made me realize the boundaries I had unknowingly created in my own approach — and how to start breaking through them.
+Bas Dijkstra – Mutation Testing
+Bas Dijkstra’s session on Mutation Testing challenged my thinking. His explanation of how mutation testing helps align our tests with real-world like product bugs was eye-opening. The way he addressed false positives and false negatives was clear, practical, and inspiring. It made me realize the boundaries I had unknowingly created in my own approach — and how to start breaking through them.
 
 The People: Passionate, Diverse, and Inspiring
 Beyond the talks, what truly made the evening special were the people I met — professionals from all over the Netherlands and even beyond, each with their own journey and passion for Quality. The genuine curiosity everyone showed toward each other’s stories created an atmosphere of warmth and connection. It was deeply human, and deeply moving.
