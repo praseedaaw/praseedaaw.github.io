@@ -3,7 +3,7 @@ title: “The BEST in TEST” meet up at Sopra Steria
 date: 2025-05-14T11:33:38+02:00
 lastmod: 2025-05-14T11:33:38+02:00
 author: Praseeda Achuthawarrier
-avatar: /img/avatar.png
+avatar: /img/avatarnew.png
 # authorlink: https://author.site
 cover: /img/bestintest.png
 # images:
