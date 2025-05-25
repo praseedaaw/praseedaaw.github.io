@@ -41,6 +41,11 @@ In those teams:
 
 As a tester, I took care of the big-picture tests, making sure everything worked together from a user’s point of view. And when we released, we knew our tests had our backs. We never had to ask, “Do we have enough test coverage?” — because we never released without it.
 
+**Post-release, the questions we asked were never about test gaps. Instead, we asked:**
+
+- Will our users love this feature?  
+- What do we build next?
+
 
 ## Before Shift Left: A Story of Stress and Bugs
 
