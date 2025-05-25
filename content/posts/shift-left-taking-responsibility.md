@@ -77,7 +77,7 @@ It helps teams:
 
 - Get clear on what they’re building.
 - Build things that are easier to test.
-- Share responsibility for quality, instead of passing blame.
+- Share responsibility for product quality.
 
 And most importantly, it helps teams ship features they can be proud of — on time, and with confidence.
 
