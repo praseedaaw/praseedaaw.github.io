@@ -31,6 +31,7 @@ headerTitle = "Praseeda connects"
 motto = "Passions drive people"
 
 footerBottomText = "Your smile looks wonderful, See you again!"
+socialMediaLinks = ["https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/", "https://instagram.com/praseedaaw"]
 
 # rss = true
 
@@ -54,22 +55,30 @@ favicon = "/img/favicon1.png"
 
 # options
 stickyNav = true
-# reorderNavItems = ["about", "search", "github", "posts", "categories", "tags", "rss"]
+reorderNavItems = ["about", "posts", "search", "categories", "tags", "github"]
 # collapseNavItems = ["posts", "categories", "tags", "rss"]
 # noDefaultSummaryCover = true
-# showTableOfContents = true
+showTableOfContents = true
 showSummaryCoverInPost = true
 imageZoomableInPost = true
 showPrevNextPost = true
-# reorderShares = ["x", "facebook", "whatsapp"]
+reorderShares = ["linkedin", "instagram", "whatsapp"]
 
-# https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/
+[params.shareLinks]
+linkedin = { name = "LinkedIn", url = "https://www.linkedin.com/shareArticle?mini=true&url=" }
+instagram = { name = "Instagram", url = "https://www.instagram.com/" }
+whatsapp = { name = "WhatsApp", url = "https://api.whatsapp.com/send?text=" }
+
+# Social media links
 [params.social]
-linkedin = "Praseeda"
+linkedin = { name = "Praseeda", url = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/" }
+instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
 
 [params.navItems]
 github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
+# posts = { href = "/posts/", title = "Posts" }
 
+    
 [params.advanced]
 # customCSS = ["css/custom.css"]
 # customJS = []
