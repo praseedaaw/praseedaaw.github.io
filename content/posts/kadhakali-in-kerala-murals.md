@@ -20,7 +20,7 @@ A story about my first Kerala Mural Painting
 
 <!--more-->
 
-I’m incredibly happy to share something close to my heart — my **first-ever Kerala mural painting**, titled *"Kathakali in Kerala Mural"*. It has a size of 34 cm * 45 cm and uses acrylic paints and Indian black ink. This project began in **September last year**, and I recently completed it under the expert guidance of my guru, **Sri. Manoj Mathasseril** ([About Manoj Sir](https://www.manojmathasseril.com/about)). What began as curiosity evolved into a deeply fulfilling artistic and cultural experience — one that connects me to my roots in Kerala in a profoundly meaningful way.
+I’m incredibly happy to share something close to my heart — my **first-ever Kerala mural painting**, titled *"Kathakali in Kerala Mural"*. It has a size of 34 cm * 45 cm and uses acrylic paints and Indian black ink. This project began in **August last year**, and I recently completed it under the expert guidance of my guru, **Sri. Manoj Mathasseril** ([About Manoj Sir](https://www.manojmathasseril.com/about)). What began as curiosity evolved into a deeply fulfilling artistic and cultural experience — one that connects me to my roots in Kerala in a profoundly meaningful way.
 
 ## A Cultural Calling: Why Kathakali?
 
