@@ -1,7 +1,7 @@
  ---
 title: Vibe Testing - AI Augmented testing - Let's explore!
-date: 2025-05-31T11:33:38+02:00
-lastmod: 2025-05-31T11:33:38+02:00
+date: 2025-06-03T22:33:38+02:00
+lastmod: 2025-06-03T22:33:38+02:00
 author: Praseeda Achuthawarrier
 avatar: /img/avatarnew.png
 # authorlink: https://author.site
