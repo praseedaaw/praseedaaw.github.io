@@ -18,6 +18,10 @@ tags:
 draft: false
 ---
 
+Test Distribution – The need for Customization
+
+<!--more-->
+
 # Test Distribution – The need for Customization
 
 When we build and test an application, we know it must go through multiple **testing levels**:  
