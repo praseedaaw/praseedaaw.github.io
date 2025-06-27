@@ -75,7 +75,7 @@ Generate a **Mermaid diagram** that maps out all events exchanged among microser
 
 ### My Prompt:
 
-> **"Select the attached services under <Parent repo> as the context. As a QA engineer, I want to create an impact chart of any change introducing to any service, and event messaging between micro-services. As an expert solution architect, can you create a mermaid syntax of all the events happening between micro-services? Mention the exact names of events in the connection lines/arrows, and provide steps to create a graphical dependency diagram. Also, create a Miro board using the Mermaid diagram."**
+> **"Select the attached services under 'Parent repo' as the context. As a QA engineer, I want to create an impact chart of any change introducing to any service, and event messaging between micro-services. As an expert solution architect, can you create a mermaid syntax of all the events happening between micro-services? Mention the exact names of events in the connection lines/arrows, and provide steps to create a graphical dependency diagram. Also, create a Miro board using the Mermaid diagram."**
 ![GitHub Copilot Web](/img/copilot-web.png)
 
 ### What Copilot Did:
