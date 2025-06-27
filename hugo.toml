@@ -65,14 +65,15 @@ showPrevNextPost = true
 reorderShares = ["linkedin", "instagram", "whatsapp"]
 
 [params.shareLinks]
-linkedin = { name = "LinkedIn", url = "https://www.linkedin.com/shareArticle?mini=true&url=" }
-instagram = { name = "Instagram", url = "https://www.instagram.com/" }
-whatsapp = { name = "WhatsApp", url = "https://api.whatsapp.com/send?text=" }
+linkedin = { name = "LinkedIn", url = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/" }
+instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
+whatsapp = { name = "WhatsApp", url = "https://wa.me/?text=" }
 
 # Social media links
 [params.social]
 linkedin = { name = "Praseeda", url = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/" }
 instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
+whatsapp = { name = "WhatsApp", url = "https://wa.me/" }
 
 [params.navItems]
 github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
