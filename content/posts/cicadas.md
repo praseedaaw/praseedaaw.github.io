@@ -1,11 +1,11 @@
  ---
-title: Cicadas
+title: Cicadas(ചീവീട്) in my motherland - Poem
 date: 2025-07-11T22:16:05+02:00
 lastmod: 2025-07-11T22:16:05+02:00
 author: Praseeda Achuthawarrier
 avatar: /img/avatarnew.png
 # authorlink: https://author.site
-cover: /img/kerala.png
+cover: /img/kerala-coconut-night.png
 # images:
 #   - /img/cover.jpg
 categories:
@@ -18,7 +18,7 @@ tags:
 draft: false
 ---
 
-Cicadas in my motherland - Kerala
+Cicadas(ചീവീട്) in my motherland - Kerala
 
 <!--more-->
 
