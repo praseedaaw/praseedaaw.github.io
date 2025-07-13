@@ -30,7 +30,7 @@ That always plays in the background.
 I have never seen them,  
 But I know they are around me,  
 On the green, leafy trees of  
-This tropical land - Kerala.  
+This tropical land.  
 
 Vehicles have to horn loud here,  
 To outperform Cicadas’ song.  
