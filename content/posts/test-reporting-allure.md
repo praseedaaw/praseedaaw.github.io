@@ -1,5 +1,5 @@
  ---
-title: Allure Reporting for Web and API Testing
+title: Test Reporting for Web and API Automated Testing
 date: 2025-08-01T14:33:38+02:00
 lastmod: 2025-08-01T14:33:38+02:00
 author: Praseeda Achuthawarrier
@@ -18,11 +18,11 @@ tags:
 draft: false
 ---
 
-Allure Reporting for Web and API Testing
+Test Reporting for Web and API Automated Testing
 
 <!--more-->
 
-# Allure Reporting for Web and API Testing
+# Test Reporting for Web and API Automated Testing
 
 Test reporting in automation runs is critical because it transforms raw test execution into actionable insights. Without a clear and structured report, teams only see a pass/fail result, which offers little value for debugging or decision-making. A good test report highlights which scenarios passed or failed, provides step-by-step visibility, and includes context like logs, screenshots, or API responses to pinpoint the root cause quickly. It enables faster collaboration between QA and development, helps identify flaky tests or recurring failures, and ultimately improves release confidence by showing the real quality state of the application. Well-structured reporting also supports trend analysis over time, guiding teams on where to invest in test stability and product quality.
 
