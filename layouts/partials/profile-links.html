@@ -1,0 +1,22 @@
+<div class="flex items-center gap-2">
+  <!-- Profile links for About page -->
+  {{ $socials := slice "linkedin" "instagram" "github" }}
+  {{ $socialTitles := dict
+    "linkedin" "LinkedIn"
+    "instagram" "Instagram" 
+    "github" "GitHub"
+  }}
+  {{ $socialLinks := dict
+    "linkedin" "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/"
+    "instagram" "https://www.instagram.com/kunstkari_by_praseeda?igsh=MTZsYzVwdXM0bGRudw%3D%3D&utm_source=qr"
+    "github" "https://github.com/praseedaaw"
+  }}
+  
+  {{ range $socials }}
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="{{ index $socialLinks . }}" target="_blank" rel="noopener noreferrer"
+      title="Visit my {{ index $socialTitles . }} profile">
+      <ion-icon class="group-hover:text-primary-content" name="logo-{{ . }}"></ion-icon>
+    </a>
+  {{ end }}
+</div>

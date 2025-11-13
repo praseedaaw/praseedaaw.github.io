@@ -1,0 +1,44 @@
+<div class="flex items-center gap-2">
+  <!-- slot: post-share-left.html -->
+  {{ if fileExists "layouts/partials/post-share-left.html" }}
+    {{ partial "post-share-left.html" . }}
+  {{ end }}
+
+  <!-- Check if this is the about page -->
+  {{ if eq .RelPermalink "/about/me/" }}
+    <!-- Use profile links for about page -->
+    {{ partial "profile-links.html" . }}
+  {{ else }}
+    <!-- Use share links for blog posts -->
+    {{ $shares := slice "linkedin" "instagram" "whatsapp" }}
+    {{ $shareTitles := dict
+      "linkedin" "LinkedIn"
+      "instagram" "Instagram" 
+      "whatsapp" "WhatsApp"
+      "x" "X"
+      "facebook" "Facebook"
+    }}
+    {{ $shareLinks := dict
+      "linkedin" (print "https://www.linkedin.com/sharing/share-offsite/?url=" (.Permalink | urlquery))
+      "instagram" (print "https://www.instagram.com/kunstkari_by_praseeda?igsh=MTZsYzVwdXM0bGRudw%3D%3D&utm_source=qr")
+      "whatsapp" (print "https://wa.me/?text=" (.Title | urlquery) "%20" (.Permalink | urlquery))
+      "x" (print "https://x.com/intent/post?text=" (.Title | urlquery) "&url=" (.Permalink | urlquery))
+      "facebook" (print "https://facebook.com/sharer/sharer.php?u=" (.Permalink | urlquery))
+    }}
+    {{ if site.Params.reorderShares }}
+      {{ $shares = site.Params.reorderShares }}
+    {{ end }}
+    {{ range $shares }}
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+        href="{{ index $shareLinks . }}" target="_blank" rel="noopener noreferrer"
+        title="Share on {{ index $shareTitles . }}">
+        <ion-icon class="group-hover:text-primary-content" name="logo-{{ . }}"></ion-icon>
+      </a>
+    {{ end }}
+  {{ end }}
+
+  <!-- slot: post-share-right.html -->
+  {{ if fileExists "layouts/partials/post-share-right.html" }}
+    {{ partial "post-share-right.html" . }}
+  {{ end }}
+</div>

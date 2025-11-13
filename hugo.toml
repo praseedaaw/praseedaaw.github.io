@@ -38,7 +38,6 @@ socialMediaLinks = ["https://www.linkedin.com/in/praseeda-achuthawarrier-a9a1812
 
 # utterancesRepo = ""
 
-# valine = true
 # LEANCLOUD_APP_ID = ""
 # LEANCLOUD_APP_KEY = ""
 
@@ -65,19 +64,14 @@ imageZoomableInPost = true
 showPrevNextPost = true
 reorderShares = ["linkedin", "instagram", "whatsapp"]
 
-[params.shareLinks]
-linkedin = { name = "LinkedIn", url = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/" }
-instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
-whatsapp = { name = "WhatsApp", url = "https://wa.me/?text=" }
-
-# Social media links
+# Social media links (for profile links)
 [params.social]
-linkedin = { name = "Praseeda", url = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/" }
-instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
-whatsapp = { name = "WhatsApp", url = "https://wa.me/" }
+linkedin = { name = "LinkedIn", url = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/" }
+instagram = { name = "Instagram", url = "https://www.instagram.com/kunstkari_by_praseeda?igsh=MTZsYzVwdXM0bGRudw%3D%3D&utm_source=qr" }
+github = { name = "GitHub", url = "https://github.com/praseedaaw" }
 
 [params.navItems]
-about = { href = "content/about/me/", title = "About" }
+about = { href = "/about/me/", title = "About" }
 github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
 # posts = { href = "/posts/", title = "Posts" }
 

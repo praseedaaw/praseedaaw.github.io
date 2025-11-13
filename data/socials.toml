@@ -1,5 +1,5 @@
 socials = [
   { href = "https://www.linkedin.com/in/praseeda-achuthawarrier-a9a18127/", target = "_blank", icon = "logo-linkedin", title = "LinkedIn" },
-  { href = "https://instagram.com/praseedaaw", target = "_blank", icon = "logo-instagram", title = "Instagram" },
-  { href = "https://wa.me/", target = "_blank", icon = "logo-whatsapp", title = "WhatsApp" }
+  { href = "https://www.instagram.com/kunstkari_by_praseeda?igsh=MTZsYzVwdXM0bGRudw%3D%3D&utm_source=qr", target = "_blank", icon = "logo-instagram", title = "Instagram" },
+  { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
 ]
