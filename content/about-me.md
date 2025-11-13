@@ -2,8 +2,8 @@
 title: About Me
 date: 2025-05-29T17:47:47+02:00
 draft: false
-url: /about/me/
 type: page
+url: /about/me/
 ---
 Hello and welcome! 👋  
 
