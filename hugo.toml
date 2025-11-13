@@ -19,7 +19,7 @@ enableRobotsTXT = true
 lightTheme = "emerald"
 darkTheme = "forest"
 
-backgroundImage = "/img/darkmode.png"
+backgroundImage = "/img/lightmode.png"
 backgroundImageDark = "/img/lightmode.png"
 
 # images = ["img/rmc.png"]
