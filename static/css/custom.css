@@ -1,0 +1,210 @@
+/* Custom CSS to fix main page text color to always be light */
+
+/* Main page content - force light text colors */
+.container:not(.card *) {
+  color: #f0f0f0 !important;
+}
+
+/* Main page headings */
+h1:not(.card h1):not(.card-title), 
+h2:not(.card h2):not(.card-title), 
+h3:not(.card h3):not(.card-title) {
+  color: #ffffff !important;
+}
+
+/* Main page paragraphs and text */
+p:not(.card p), 
+span:not(.card span):not(.text-base-content), 
+div:not(.card div):not(.text-base-content) {
+  color: #e0e0e0 !important;
+}
+
+/* Navigation text (keep existing functionality) */
+nav a, nav span {
+  /* Let navigation keep its existing theme-aware colors */
+}
+
+/* Footer text */
+footer p, footer span {
+  color: #d0d0d0 !important;
+}
+
+/* Links in main content */
+a:not(.card a):not(nav a):not(.btn) {
+  color: #87ceeb !important; /* Light blue for better readability */
+}
+
+a:not(.card a):not(nav a):not(.btn):hover {
+  color: #b0e0e6 !important; /* Lighter blue on hover */
+}
+
+/* Custom tile colors - override theme inheritance */
+.card {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.card .card-title {
+  color: #ffffff !important;
+}
+
+.card .card-body {
+  color: #f0f0f0 !important;
+}
+
+.card p {
+  color: #e8e8e8 !important;
+}
+
+.card span {
+  color: #d0d0d0 !important;
+}
+
+.card a {
+  color: #87ceeb !important;
+}
+
+.card a:hover {
+  color: #b0e0e6 !important;
+}
+
+/* Tile hover states */
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.3s ease;
+}
+
+.card:hover .card-title {
+  color: #ffffff !important;
+}
+
+.card:hover .card-body {
+  color: #f5f5f5 !important;
+}
+
+.card:hover p {
+  color: #eeeeee !important;
+}
+
+.card:hover span {
+  color: #dddddd !important;
+}
+
+.card:hover a {
+  color: #90cdf4 !important;
+}
+
+/* Date and time elements in cards */
+.card time {
+  color: #cccccc !important;
+}
+
+.card:hover time {
+  color: #e0e0e0 !important;
+}
+
+/* Ensure article/post content uses light colors on main page */
+article:not(.card article) {
+  color: #f0f0f0 !important;
+}
+
+/* Date and meta information */
+time, .text-sm:not(.card .text-sm) {
+  color: #cccccc !important;
+}
+
+/* Make sure button text remains readable */
+.btn:not(.card .btn) {
+  /* Preserve button styling */
+}
+
+/* Blog post page text colors - make all non-link text white */
+article#dream-single-post-main {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main h1,
+article#dream-single-post-main h2,
+article#dream-single-post-main h3,
+article#dream-single-post-main h4,
+article#dream-single-post-main h5,
+article#dream-single-post-main h6 {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main p {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main span:not(.text-base-content) {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main div {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main li {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main strong {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main em {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main blockquote {
+  color: #ffffff !important;
+}
+
+article#dream-single-post-main code {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+article#dream-single-post-main pre {
+  color: #ffffff !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Blog post meta information */
+article#dream-single-post-main .text-sm {
+  color: #cccccc !important;
+}
+
+article#dream-single-post-main time {
+  color: #cccccc !important;
+}
+
+/* Table of contents */
+#TableOfContents {
+  color: #ffffff !important;
+}
+
+#TableOfContents a {
+  color: #111719 !important;
+}
+
+#TableOfContents a:hover {
+  color: #101819 !important;
+}
+
+/* Blog post header information */
+.prose h1[itemprop="headline"] {
+  color: #ffffff !important;
+}
+
+/* Author information */
+span[itemprop="author"] {
+  color: #ffffff !important;
+}
+
+/* Reading time and date info */
+.prose .text-sm span {
+  color: #cccccc !important;
+}

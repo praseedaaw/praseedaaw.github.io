@@ -77,13 +77,13 @@ instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
 whatsapp = { name = "WhatsApp", url = "https://wa.me/" }
 
 [params.navItems]
-about = { href = "/about/me/", title = "About Me" }
+about = { href = "content/about/me/", title = "About" }
 github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
 # posts = { href = "/posts/", title = "Posts" }
 
     
 [params.advanced]
-# customCSS = ["css/custom.css"]
+customCSS = ["css/custom.css"]
 # customJS = []
 
 [params.experimental]
