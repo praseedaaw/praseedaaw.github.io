@@ -27,6 +27,7 @@ backgroundImageDark = "/img/lightmode.png"
 author = "Praseeda"
 description = "Praseeda's journey in tech and arts"
 avatar = "/img/avatarnew.png"
+avatarLink = "/about/me/"
 headerTitle = "Praseeda connects"
 motto = "Passions drive people"
 
@@ -76,6 +77,7 @@ instagram = { name = "Praseeda", url = "https://instagram.com/praseedaaw" }
 whatsapp = { name = "WhatsApp", url = "https://wa.me/" }
 
 [params.navItems]
+about = { href = "/about/me/", title = "About Me" }
 github = { href = "https://github.com/praseedaaw", target = "_blank", icon = "logo-github", title = "GitHub" }
 # posts = { href = "/posts/", title = "Posts" }
 
