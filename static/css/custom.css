@@ -208,3 +208,19 @@ span[itemprop="author"] {
 .prose .text-sm span {
   color: #cccccc !important;
 }
+
+/* Collapsible blocks - ensure proper line spacing */
+.collapsible-block pre {
+  white-space: pre-line !important;
+  line-height: 1.8 !important;
+  font-size: 14px !important;
+}
+
+.collapsible-block details[open] div {
+  white-space: pre-line !important;
+}
+
+.collapsible-block p {
+  margin: 0.5em 0 !important;
+  line-height: 1.6 !important;
+}

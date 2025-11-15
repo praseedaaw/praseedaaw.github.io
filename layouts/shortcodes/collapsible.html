@@ -3,7 +3,7 @@
   <summary style="background: rgba(255,255,255,0.1); padding: 1em; cursor: pointer; font-weight: bold; color: #ffffff; border-radius: 8px 8px 0 0;">
     {{ $title }}
   </summary>
-  <div style="padding: 1em; background: rgba(0,0,0,0.3); border-radius: 0 0 8px 8px;">
-    {{ .Inner | markdownify }}
+  <div style="padding: 1em; background: rgba(0,0,0,0.3); border-radius: 0 0 8px 8px; white-space: pre-line; line-height: 1.6;">
+    <pre style="background: transparent; color: #ffffff; padding: 0; margin: 0; white-space: pre-wrap; font-family: inherit; border: none;">{{ .Inner }}</pre>
   </div>
 </details>
